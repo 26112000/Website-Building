@@ -18,6 +18,8 @@ const myBanner = fs.readFileSync(paths.source + '/views/banner.html');
 const myContact = fs.readFileSync(paths.source + '/views/contact.html');
 const myAbout = fs.readFileSync(paths.source + '/views/about.html');
 const myFooter = fs.readFileSync(paths.source + '/views/footer.html');
+const myExperience = fs.readFileSync(paths.source + '/views/experience.html');
+const myPortfolio = fs.readFileSync(paths.source + '/views/portfolio.html');
 
 module.exports = {
     stats: {
@@ -40,6 +42,8 @@ module.exports = {
             myAbout: myAbout,
             myContact: myContact,
             myFooter: myFooter,
+            myExperience: myExperience,
+            myPortfolio: myPortfolio,
             template: './src/index.html',
             filename: 'index.html',
             inject: 'body'

@@ -14,13 +14,13 @@
   .hero {
     height: 100vh;
     position: relative;
-    color: $color_5;
+    color: $color_2;
     .hero-content {
       text-align: center;
       position: absolute;
     }
     .overlay-itro {
-      background-color: $background-color_7;
+      // background-color: $background-color_7;
       position: absolute;
       top: 0;
       left: 0px;
@@ -30,7 +30,7 @@
       opacity: 0.9;
     }
     .hero-title {
-      color: $color_5;
+      color: $color_2;
       font-weight: 600;
       font-size: 3rem;
     }
