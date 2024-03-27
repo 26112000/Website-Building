@@ -20,6 +20,7 @@ const myAbout = fs.readFileSync(paths.source + '/views/about.html');
 const myFooter = fs.readFileSync(paths.source + '/views/footer.html');
 const myExperience = fs.readFileSync(paths.source + '/views/experience.html');
 const myPortfolio = fs.readFileSync(paths.source + '/views/portfolio.html');
+const mygitHubApi = fs.readFileSync(paths.source + '/views/githubapi.html');
 
 module.exports = {
     stats: {
@@ -44,6 +45,7 @@ module.exports = {
             myFooter: myFooter,
             myExperience: myExperience,
             myPortfolio: myPortfolio,
+            mygitHubApi: mygitHubApi,
             template: './src/index.html',
             filename: 'index.html',
             inject: 'body'
