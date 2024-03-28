@@ -7,3 +7,4 @@ import "./js/main.js";
 import "./js/skill.js";
 import "./js/validare.js";
 import "./js/githubapi.js";
+import "./js/translate.js";
