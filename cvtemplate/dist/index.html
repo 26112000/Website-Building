@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebSite Building Bootstrap + Webpack</title>
-<link rel="icon" href="favicon.ico?a47c2d91acad11fa79a8"><link href="css/main.css?a47c2d91acad11fa79a8" rel="stylesheet"></head>
+<link rel="icon" href="favicon.ico?a74973b951bc620d8b3b"><link href="css/main.css?a74973b951bc620d8b3b" rel="stylesheet"></head>
 
 <body>
     <!-- ======= Header ======= -->
@@ -56,9 +56,9 @@
     <div class="hero-content display-table">
         <div class="table-cell">
             <div class="container">
-                <p class="display-6 color-d">Hello, world!</p>
-                <h1 class="hero-title mb-4">I am Andrei</h1>
-                <p class="hero-subtitle"><span class="typed"
+                <p class="display-6 color-d" data-tr="banner.salut">Hello, world!</p>
+                <h1 class="hero-title mb-4" data-tr="banner.nume">I am Andrei</h1>
+                <p class="hero-subtitle"><span class="typed" data-typed-tr="typed"
                         data-typed-items="Teacher, Mentor, Developer, Freelancer, Designer"></span></p>
                 <ul class="list-inline list-social">
                     <li>
@@ -121,18 +121,16 @@
                                 </div>
                                 <div class="col-sm-6 col-md-7">
                                     <div class="about-info">
-                                        <p><span class="title-s">Name: </span> <span>Adrian Adiaconitei</span></p>
-                                        <p><span class="title-s">Profile: </span> <span>full stack developer</span></p>
+                                        <p><span class="title-s" data-tr="about.Nume">Name: </span> <span>Adrian Adiaconitei</span></p>
+                                        <p><span class="title-s" data-tr="about.profil">Profile: </span> <span>full stack developer</span></p>
                                         <p><span class="title-s">Email: </span> <span>contact@example.com</span></p>
-                                        <p><span class="title-s">Phone: </span> <span>(617) 557-0089</span></p>
+                                        <p><span class="title-s" data-tr="about.telefon">Phone: </span> <span>(617) 557-0089</span></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="about-me pt-4 pt-md-0">
                                 <div class="title-box-2">
-                                    <h5 class="title-left">
-                                        About me
-                                    </h5>
+                                    <h5 class="title-left" data-tr="about.despremine">About me</h5>
                                 </div>
                                 <p class="lead">
                                     Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu
@@ -159,9 +157,7 @@
                         <div class="col-md-6">
                             <div class="skill-mf">
                                 <div class="title-box-2">
-                                    <h5 class="title-left">
-                                        My Skills
-                                    </h5>
+                                    <h5 class="title-left" data-tr="about.aptitudini">My Skills</h5>
                                 </div>
                                 <ul id="skills" class="skills-bar-container">
 
@@ -254,7 +250,7 @@
 
                         <div class="col-twelve resume-header">
 
-                            <h2>Work Experience</h2>
+                            <h2 data-tr="experience.experienta">Work Experience</h2>
 
                         </div> <!-- /resume-header -->
 
@@ -270,11 +266,11 @@
 
                                     <div class="timeline-header">
                                         <h3>UI Designer</h3>
-                                        <p>July 2015 - Present</p>
+                                        <p data-tr="experience.data1">July 2015 - Present</p>
                                     </div>
 
                                     <div class="timeline-content">
-                                        <h4>Awesome Studio</h4>
+                                        <h4 data-tr="experience.studio">Awesome Studio</h4>
                                         <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur
                                             nisi
                                             cupidatat
@@ -295,11 +291,11 @@
 
                                     <div class="timeline-header">
                                         <h3>Front-end Developer</h3>
-                                        <p>July 2014 - June 2015</p>
+                                        <p data-tr="experience.data2">July 2014 - June 2015</p>
                                     </div>
 
                                     <div class="timeline-content">
-                                        <h4>Super Cool Agency</h4>
+                                        <h4 data-tr="experience.agentie">Super Cool Agency</h4>
                                         <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur
                                             nisi
                                             cupidatat
@@ -321,11 +317,11 @@
 
                                     <div class="timeline-header">
                                         <h3>Web Designer</h3>
-                                        <p>May 2013 - June 2014</p>
+                                        <p data-tr="experience.data3">May 2013 - June 2014</p>
                                     </div>
 
                                     <div class="timeline-content">
-                                        <h4>Great Designs Studio</h4>
+                                        <h4 data-tr="experience.studio2">Great Designs Studio</h4>
                                         <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur
                                             nisi
                                             cupidatat
@@ -347,11 +343,7 @@
 
                     <div class="row resume-timeline">
 
-                        <div class="col-twelve resume-header">
-
-                            <h2>Education</h2>
-
-                        </div> <!-- /resume-header -->
+                        <div class="col-twelve resume-header" data-tr="experience.educatie"><h2>Education</h2></div> <!-- /resume-header -->
 
                         <div class="col-twelve">
 
@@ -364,12 +356,12 @@
                                     </div>
 
                                     <div class="timeline-header">
-                                        <h3>Master Degree</h3>
-                                        <p>July 2015 - Present</p>
+                                        <h3 data-tr="experience.masterat">Master Degree</h3>
+                                        <p data-tr="experience.data4">July 2015 - Present</p>
                                     </div>
 
                                     <div class="timeline-content">
-                                        <h4>University of Life</h4>
+                                        <h4 data-tr="experience.universitate">University of Life</h4>
                                         <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur
                                             nisi
                                             cupidatat
@@ -389,12 +381,12 @@
                                     </div>
 
                                     <div class="timeline-header">
-                                        <h3>Bachelor Degree</h3>
-                                        <p>July 2014 - June 2015</p>
+                                        <h3 data-tr="experience.bac">Bachelor Degree</h3>
+                                        <p data-tr="experience.data5">July 2014 - June 2015</p>
                                     </div>
 
                                     <div class="timeline-content">
-                                        <h4>State Design University</h4>
+                                        <h4 data-tr="experience.universitate2">State Design University</h4>
                                         <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur
                                             nisi
                                             cupidatat
@@ -415,12 +407,12 @@
                                     </div>
 
                                     <div class="timeline-header">
-                                        <h3>Bachelor Degree</h3>
-                                        <p>May 2013 - June 2014</p>
+                                        <h3 data-tr="experience.bac2">Bachelor Degree</h3>
+                                        <p data-tr="experience.data6">May 2013 - June 2014</p>
                                     </div>
 
                                     <div class="timeline-content">
-                                        <h4>Design College</h4>
+                                        <h4 data-tr="experience.colegiu">Design College</h4>
                                         <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur
                                             nisi
                                             cupidatat
@@ -450,12 +442,8 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="title-box text-center">
-                    <h3 class="title-a">
-                        Portfolio
-                    </h3>
-                    <p class="subtitle-a">
-                        The latest projects completed
-                    </p>
+                    <h3 class="title-a" data-tr="portofoliu.portofoliu">Portfolio</h3>
+                    <p class="subtitle-a" data-tr="portofoliu.ultimeleport">The latest projects completed</p>
                     <div class="line-mf"></div>
                 </div>
             </div>
@@ -615,12 +603,8 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="title-box text-center">
-                    <h3 class="title-a">
-                        My GitHub Repo
-                    </h3>
-                    <p class="subtitle-a">
-                        The latest GitHub Repo
-                    </p>
+                    <h3 class="title-a" data-tr="github.repozitorii">My GitHub Repo </h3>
+                    <p class="subtitle-a" data-tr="github.ultimelerep">The latest GitHub Repo</p>
                     <div class="line-mf"></div>
                 </div>
             </div>
@@ -640,9 +624,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="title-box-2">
-                                    <h5 class="title-left">
-                                        Send Message Us
-                                    </h5>
+                                    <h5 class="title-left" data-tr="contact.mesaj">Send Message Us</h5>
                                 </div>
                                 <div>
                                     <form action="forms/contact.php" method="post" role="form" class="php-email-form requires-validation">
@@ -678,14 +660,13 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-12 text-center my-3">
-                                                <div class="loading">Loading</div>
+                                                <div class="loading" data-tr="contact.trimitere">Loading</div>
                                                 <div class="error-message"></div>
-                                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                                                <div class="sent-message" data-tr="contact.mesaj">Your message has been sent. Thank you!</div>
                                             </div>
                                             <div class="col-md-12 text-center">
                                                 <button type="submit"
-                                                    class="button button-a button-big button-rouded">Send
-                                                    Message</button>
+                                                    class="button button-a button-big button-rouded" data-tr="contact.trimite">Send Message</button>
                                             </div>
                                         </div>
                                     </form>
@@ -693,9 +674,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="title-box-2 pt-4 pt-md-0">
-                                    <h5 class="title-left">
-                                        Get in Touch
-                                    </h5>
+                                    <h5 class="title-left" data-tr="contact.scrie">Get in Touch</h5>
                                 </div>
                                 <div class="more-info">
                                     <p class="lead">
@@ -764,11 +743,7 @@
             <div class="col-sm-12">
                 <div class="copyright-box">
                     <p class="copyright">&copy; Copyright <strong>AboutMe</strong>. All Rights Reserved</p>
-                    <div class="credits">
-
-
-                        Designed by <a href="#">About Me</a>
-                    </div>
+                    <div class="credits" data-tr="footer.creat">Designed by <a href="#">About Me</a></div>
                 </div>
             </div>
         </div>
@@ -779,6 +754,6 @@
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
         class="bi bi-arrow-up-short"></i></a>
 
-<script defer src="js/main.bundle.js?a47c2d91acad11fa79a8"></script></body>
+<script defer src="js/main.bundle.js?a74973b951bc620d8b3b"></script></body>
 
 </html>
